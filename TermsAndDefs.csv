@@ -30,13 +30,9 @@ return,Key word used to send the output of a function to an output variable.
 scope,Existence-space of a variable. Can be local or global.
 set,Collection data type that is a unordered sequence of values. Only one instance of each value is allowed in a set. Implemented with parentheses ().
 slice,Sub-section of a sequence variable (list string)
-string,Ordered, non-numerical sequence of characters.
+string,Ordered non-numerical sequence of characters.
 try,Key word used to begin a code block that partitions code to handle errors in order to avoid a program crash.
 variable,Name used to refer to a given value of a data type.
 while,Type of loop. Used when the number of required iterations is unknown.
 with,Used to handle exceptions. Frequently used when opening files.
 yield,Similar in behavior to the 'return' keyword but if iterating over a sequence variable will reference the next space used in the last iteration. Frequently used in conjunction with loops.
-
-
-
-
