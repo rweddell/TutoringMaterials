@@ -21,13 +21,13 @@ class Person():
         print("I'm a {}!".format(self._job))
     
 
-# charlie = Person(name='Charlie', height=5.85)
+# person1 = Person(name='Lester', height=5.85)
 
-# charlie.update_job('bus driver')
+# person1.update_job('bus driver')
 
-# charlie.say_hello()
-# charlie.say_job()
+# person1.say_hello()
+# person1.say_job()
 
-# charlie.favorite_color = 'chartreuse'
+# person1.favorite_color = 'chartreuse'
 
-# print(charlie.favorite_color)
+# print(person1.favorite_color)

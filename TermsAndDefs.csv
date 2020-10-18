@@ -5,6 +5,7 @@ boolean,A data type which is made up of 1s and 0s. Can also evalute to True/Fals
 call,Action performed when a function is invoked.
 cast,Convert a variable to a different data type: str() int() float().
 class,Definition of a data type. Can be custom-built to create complex data types.
+comparison,A check for the value of a variable. Usually against another value but can check for True or False.
 concatenation,Adding two series variables by appending the second value to the end of the first value.
 dictionary,Data structure made up by a series of key/value pairs. The keys and values can be of any data type. Also called an 'associative array'.
 elif,Comparison statement used to handle a second specific condition after an if-statement evaluates to False.
@@ -24,6 +25,7 @@ library,A package of code that can be downloaded into a development environment.
 list,Data type in the form of a series of values separated by commas. Implemented using square brackets [].
 local,Scope defined within a specified space. Variables created within a local scope can only be referenced from within that scope.
 loop,Code block that continually executes until a specified condition is met.
+modulus,The remainder of a division. Uses the modulo operator %. 5 % 3 = 2.
 operator,Symbol used to execute a statement. Ex: + - > < = ==
 parameter,Input or output variables from a function.
 return,Key word used to send the output of a function to an output variable.
