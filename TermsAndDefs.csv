@@ -1,6 +1,6 @@
 TERM,DEFINTION
 argument,Another term for parameter. An argument is a value given to a function.
-assignment,Associates a variable name with a value.
+assignment,Associates a variable name with a value by using the assignment operator =
 boolean,A data type which is made up of 1s and 0s. Can also evalute to True/False. Primarily used as a result of a comparison.
 call,Action performed when a function is invoked.
 cast,Convert a variable to a different data type: str() int() float().
