@@ -1,4 +1,4 @@
-term,definition
+TERM,DEFINTION
 argument,Another term for parameter. An argument is a value given to a function.
 assignment,Associates a variable name with a value.
 boolean,A data type which is made up of 1s and 0s. Can also evalute to True/False. Primarily used as a result of a comparison.
