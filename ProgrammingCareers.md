@@ -1,14 +1,14 @@
 # Programming Careers
 ## Web Developer
-    ### Front-end
+    - Front-end
         * User experience
         * Create and implement the User Interface (UI) of an application
         * JavaScript, HTML5, CSS
-    ### Back-end
+    - Back-end
         * Server-side functionality
         * Create and manage the code and data that a distributed application uses
         * Java, JavaScript, Python, PHP
-    ### Full-stack
+    - Full-stack
         * Both front and back-end development
         * Comprehensive understanding of distributed applications
 ## Game developer
