@@ -1,4 +1,7 @@
 # Programming Careers
+
+___
+
 ## Web Development
 >
 >### Front-end
@@ -24,28 +27,33 @@
 >
 ## Database Administration (DBA)
 >   - Define/manage the data storage of an organization
->    - Understanding of database concepts
->    - Relataional data, 
->    - Hierarchical data: datalake, database, table, column
->    - Distributed file systems (Hadoop)
+>       - Understanding of database concepts
+>       - Relataional data, 
+>       - Hierarchical data: datalake, database, table, column
+>       - Distributed file systems (Hadoop)
 >### Languages to know:
->        SQL
+>        SQL (Or any query language)
 >
 ## Data Engineering
->    - Write code to process, manipulate, and mine data in storage
+>    - Write code to process, manipulate, and mine data
+>        - Storage or files
 >    - Database concepts
->    - An understanding of data processing/cleaning
+>    - Data processing/cleaning
 >### Languages to know:
 >        Python
 >        SQL 
 >
 ## Application Development
->    - Build stand-alone applications that will operate on a server or PC
->    - Basic security conecpts and system-managment concepts such as files
+>    - Build stand-alone applications that will operate on a server, PC, or mobile device
+>    - Basic security concepts and system-managment concepts such as files
+>    - Knowledge of networking concepts depending on scope of application
+>        - Especially for mobile applications
 >### Languages to know:
 >        C#
 >        C++
 >        Java
+>        Kotlin
+>        Swift
 >
 ## Information Security
 >    - Only a moderate understanding of how to write code
