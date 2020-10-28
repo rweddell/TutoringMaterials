@@ -17,7 +17,7 @@ ___
 ## Database Administration (DBA)
 >   - Define/manage the data storage of an organization
 >   - Understanding of database concepts
->       - Relataional data
+>       - Relational data
 >       - Hierarchical data: datalake, database, table, column
 >       - Distributed file systems (Hadoop)
 >### Languages to know:
