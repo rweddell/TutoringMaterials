@@ -44,12 +44,12 @@
     - Part of the response from a request
     - Informs the sender how their request was received
     - Comes in the form of a 3 digit integer
-        - 200
+        - 200s
             - Received without errors
-        - 400s
-            - Bad requests/not received/not accepted
         - 300s
             - Received, but redirected
+        - 400s
+            - Bad requests/not received/not accepted
         - 500s
             - Server-side error while parsing request
             - Can attempt resend
