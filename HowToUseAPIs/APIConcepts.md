@@ -4,8 +4,9 @@
     - Application Programming Interface
     - Series of functions that are exposed to the internet
         - Sometimes requires authentication
-            - username
-            - password
+            - username/password
+            - key
+            - token
     - Allows interaction with a service without requiring knowledge of the back-end
     - Uses RESTful state architecture
         - REpresentational State Tansfer
