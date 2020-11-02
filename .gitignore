@@ -80,6 +80,8 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+.ipynb_checkpoints
+*.ipynb_checkpoints
 
 # pyenv
 .python-version
@@ -130,3 +132,4 @@ dmypy.json
 
 StagingAndTesting.ipynb
 staging.py
+apikeys.json
