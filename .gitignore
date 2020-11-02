@@ -130,6 +130,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Specific files
 StagingAndTesting.ipynb
 staging.py
-apikeys.json
+rapid-api-key.json
