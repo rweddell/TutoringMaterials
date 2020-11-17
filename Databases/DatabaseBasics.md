@@ -20,7 +20,7 @@
 > It also adds a level of security by adding a layer of access authentication for the underlying tables
 
 ### Tables
-> A table is essentially a file in a file system
+A table is essentially a file in a file system
 > They can be stored directly within the file system (RDBMS), but should be created within a database
 > Tables are the structure which actually stores the data
 
@@ -28,27 +28,28 @@
 > Columns are individual fields within a table
 
 ### Views
-> Views are routines which behave much the same way as tables, but are not actual structures
-> Views are a subset of information within one or more databases
->>Subsection of a table
->>Several talbes or parts of tables bundled together
+Views are routines which behave much the same way as tables, but are not actual structures
+Views are a subset of information within one or more databases
+>- Subsection of a table
+>- Several talbes or parts of tables bundled together
 
 ### UDFs
-> User Defined Functions
-> These are custom routines that can be created and scheduled to automatically process data
+User Defined Functions
+These are custom routines that can be created and scheduled to automatically process data
     
     
 ## Transactions
-> A transaction is an interaction with data
-    - Reading 
-    - Writing
-    - Deleting
-> Consider this scenario:
->>Users A and B both work at a manufacturing firm
->>In their database is a table holding the total number of items sold
->>A needs to write a report that shows this number to present to management in a planning meeting
->>B needs to enter some last-minute entries
->>What happens if they both access the information at the same time
+A transaction is an interaction with data
+>Reading 
+>Writing
+>Deleting
+
+Consider this scenario:
+>Users A and B both work at a manufacturing firm
+>In their database is a table holding the total number of items sold
+>A needs to write a report that shows this number to present to management in a planning meeting
+>B needs to enter some last-minute entries
+>What happens if they both access the information at the same time
     
     
 ## Queries
