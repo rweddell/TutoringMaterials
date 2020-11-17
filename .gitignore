@@ -131,7 +131,9 @@ dmypy.json
 .pyre/
 
 # Specific files
+.vscode/
 StagingAndTesting.ipynb
 staging.py
 rapid-api-key.json
 dino-names.txt
+./CodeExamples/cooking_schedules.csv
