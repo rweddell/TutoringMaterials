@@ -1,15 +1,20 @@
 # Database basics
 
+
+
 ## History
 - Files used to be manually managed
 - Data is now too large and moves too quickly for this to be possible
 - Data is now stored in large file systems
 - The files can be linked to each other using data that is represented in both sides of the link
 
+
+
 ## Relational DataBase Management System (RDBMS)
 - An RDBMS is a system that allows a user to interact with data in storage
 - Secure connections in terms of data loss prevention as well as transactional security
 - Data creation/deletion without needing to interact directly with files
+    
     
     
 ## Components of RDBMSs
