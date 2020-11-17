@@ -22,7 +22,7 @@
 ### Tables
 A table is essentially a file in a file system
 > They can be stored directly within the file system (RDBMS), but should be created within a database
-> Tables are the structure which actually stores the data
+ Tables are the structure which actually stores the data
 
 ### Columns
 > Columns are individual fields within a table
@@ -40,21 +40,21 @@ These are custom routines that can be created and scheduled to automatically pro
     
 ## Transactions
 A transaction is an interaction with data
->Reading 
->Writing
->Deleting
+> - Reading 
+> - Writing
+> - Deleting
 
-Consider this scenario:
->Users A and B both work at a manufacturing firm
->In their database is a table holding the total number of items sold
->A needs to write a report that shows this number to present to management in a planning meeting
->B needs to enter some last-minute entries
->What happens if they both access the information at the same time
+> Consider this scenario:
+- Users A and B both work at a manufacturing firm
+- In their database is a table holding the total number of items sold
+- A needs to write a report that shows this number to present to management in a planning meeting
+- B needs to enter some last-minute entries
+- What happens if they both access the information at the same time
     
     
 ## Queries
-> Statements made in SQL are called 'queries'
-> The most typical query will begin with a 'select' clause
->- This is when a user is looking for information
->- They are 'selecting' information from storage for review
+Statements made in SQL are called 'queries'
+The most typical query will begin with a 'select' clause
+> - This is when a user is looking for information
+> - They are 'selecting' information from storage for review
 
