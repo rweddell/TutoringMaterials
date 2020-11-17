@@ -30,26 +30,26 @@
 ### Views
 - Views are routines which behave much the same way as tables, but are not actual structures
 - Views are a subset of information within one or more databases
->- Subsection of a table
->- Several talbes or parts of tables bundled together
+    - Subsection of a table
+    - Several talbes or parts of tables bundled together
 
 ### UDFs
-User Defined Functions
-These are custom routines that can be created and scheduled to automatically process data
+- User Defined Functions
+- These are custom routines that can be created and scheduled to automatically process data
     
     
 ## Transactions
 - A transaction is an interaction with data
-> - Reading 
-> - Writing
-> - Deleting
+    - Reading 
+    - Writing
+    - Deleting
 
->> Consider this scenario:
-    - Users A and B both work at a manufacturing firm
-    - In their database is a table holding the total number of items sold
-    - A needs to write a report that shows this number to present to management in a planning meeting
-    - B needs to enter some last-minute entries
-    - What happens if they both access the information at the same time
+> Consider this scenario:
+>    - Users A and B both work at a manufacturing firm
+>    - In their database is a table holding the total number of items sold
+>    - A needs to write a report that shows this number to present to management in a planning meeting
+>    - B needs to enter some last-minute entries
+>    - What happens if they both access the information at the same time
     
     
 ## Queries
