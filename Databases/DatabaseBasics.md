@@ -32,6 +32,16 @@
 ### Columns
 - Columns are individual fields within a table
 
+### Keys
+- A unique column within a table that is used as the identifier for a particular row
+    - Names
+    - Locations
+    - Dates or times
+- Can also be a combination of columns for a row
+    - Purchased item + date
+    - Job Title + Company name
+- Used to connect data in separate table
+
 ### Views
 - Views are routines which behave much the same way as tables, but are not actual structures
 - Views are a subset of information within one or more databases
@@ -51,7 +61,7 @@
 
     Consider this scenario:
     >    - Users A and B both work at a manufacturing firm
-    >    - In their database is a table holding the total number of items sold
+    >    - In their database is a table holding the total number of items sold in a given period
     >    - A needs to write a report that shows this number to present to management in a planning meeting
     >    - B needs to enter some last-minute entries
     >    - What happens if they both access the information at the same time
