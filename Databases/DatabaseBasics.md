@@ -10,14 +10,14 @@
 
 
 
-## Relational DataBase Management System (RDBMS)
-- An RDBMS is a system that allows a user to interact with data in storage
+## DataBase Management System (DBMS)
+- An DBMS is a system that allows a user to interact with data in storage
 - Secure connections in terms of data loss prevention as well as transactional security
 - Data creation/deletion without needing to interact directly with files
     
     
     
-## Components of RDBMSs
+## Components of DBMSs
 
 ### Databases
 - A database is essentially a folder in a file system
@@ -26,7 +26,7 @@
 
 ### Tables
 - A table is essentially a file in a file system
-- They can be stored directly within the file system (RDBMS), but should be created within a database
+- They can be stored directly within the file system (DBMS), but should be created within a database
 - Tables are the structure which actually stores the data
 
 ### Columns
