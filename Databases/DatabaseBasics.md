@@ -47,6 +47,12 @@
 - Views are a subset of information within one or more databases
     - Subsection of a table
     - Several talbes or parts of tables bundled together
+    
+### Schema
+- The architecture of a DBMS
+    - Database
+    - Table/View
+    - Columns/Keys
 
 ### UDFs
 - User Defined Functions
