@@ -49,7 +49,7 @@
     - Writing
     - Deleting
 
-    > Consider this scenario:
+    Consider this scenario:
     >    - Users A and B both work at a manufacturing firm
     >    - In their database is a table holding the total number of items sold
     >    - A needs to write a report that shows this number to present to management in a planning meeting
