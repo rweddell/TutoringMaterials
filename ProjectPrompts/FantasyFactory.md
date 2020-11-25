@@ -61,6 +61,6 @@
                 
 
 >EHANCEMENTS: 
-    - Generate an age attribute based on the race of the character
-    - Ask the user if they want a randomly generated character, or if they want to choose the character's fantasy race and generate attributes unique to that race
-        - Names of characters and locations as well as an age based on the race
+Generate an age attribute based on the race of the character
+Ask the user if they want a randomly generated character, or if they want to choose the character's fantasy race and generate attributes unique to that race
+Names of characters and locations as well as an age based on the race
