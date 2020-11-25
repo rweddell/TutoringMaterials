@@ -35,8 +35,6 @@
         > os.system('cls' if os.name == 'nt' else 'clear')
     3. Select a fantasy race
         - Use choice() from the random library to select a fantasy race
-        > - EHANCEMENT: 
-            - How could we ask the user if they want a randomly generated character, or if they want to choose the character's fantasy race?
     4. Generate a name
         - Use the randint() function to generate a random integer
             - This will be the number of syllables selected from the syllable collection to generate a name
@@ -60,3 +58,9 @@
     - Thank the user for using the program
        - Use the art library to beautify the text
                 
+                
+
+>EHANCEMENTS: 
+    - Generate an age attribute based on the race of the character
+    - Ask the user if they want a randomly generated character, or if they want to choose the character's fantasy race and generate attributes unique to that race
+        - Names of characters and locations as well as an age based on the race
