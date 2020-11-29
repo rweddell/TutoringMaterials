@@ -136,4 +136,6 @@ StagingAndTesting.ipynb
 staging.py
 rapid-api-key.json
 dino-names.txt
-./CodeExamples/cooking_schedule.csv
+CodeExamples/cooking_schedule.csv
+cooking_schedule.csv
+ProjectExamples/*
