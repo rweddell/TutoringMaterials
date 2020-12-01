@@ -108,8 +108,9 @@
 
 
 ### ENHANCEMENTS: 
-    > Implement a 'clear' button that will delete all   
-    > Implement an eraser button (consider what it might actually mean to erase something in pixel form)   
-    > Implement a button which will change the size of the brush   
+
+> Implement a 'clear' button that will delete all lines on the canvas   
+> Implement an eraser button (consider what it might actually mean to erase something in pixel form)   
+> Implement a button which will change the size of the brush   
 
 
