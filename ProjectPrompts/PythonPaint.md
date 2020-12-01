@@ -52,9 +52,15 @@
     - This function will trigger when the left mouse button is released
     - It will take one parameter called: event
     - Reference the global variables: b1, x_old, y_old
+    - The purpose of this function is to reassign the values of global variables
+        > global b1, x_old, y_old  
+        > b1 = 'up'  
+        > x_old = None  
+        > y_old = None  
 
 - Define a function called motion
     - This function will be used when the left mouse button is clicked and the mouse is moving
+    - This function will update x_old and y_old as the mouse moves and create a line on the canvas
     - It will take one parameter called: event
     - Everything in this function is dependent on b1 == 'down', so if b1 does not equal 'down', the function will do nothing
         > if b1 == 'down':
@@ -63,18 +69,45 @@
         > if x_old is not None and y_old is not None:
     - If the statement evaluates to True
         - Call the create_line function of event's widget attribute
-            > event.widget.create_line(x_old, y_old, event.x, event.y, smooth=True, fill=default_color, width=default_size)
+            > event.widget.create_line(x_old, y_old, event.x, event.y, smooth=True, fill=default_color, width=default_size)  
             - This will use the global default color and size for the brush
         - Reassign x_old and y_old to event's x and y values
-            > x_old, y_old = event.x, event.y
+            > x_old, y_old = event.x, event.y  
+        
+- Make adjustments to the main function
+    - Canvas needs to be linked to the functions that you just wrote
+    - Call canvas's bind function to link specific mouse events
+    - Place the following lines of code after the canvas declaration and above window.mainloop()
+        > canvas.bind('<Motion>', motion)
+        > canvas.bind('<ButtonPress-1>', b1down)
+        > canvas.bind('<ButtonRelease-1>', b1up)
 
 
 ### Part 3
 #### Choosing a color
 - Define a function called choose_color
+    - Reference the global variable default_color
+    - Create a variable called color and assign it to the askcolor function that was imported 
+        - askcolor returns a list of values for each selection
+        - Use list index notation to select the 2nd element in the list
+        > color = askcolor()[1]
+    - Write an if-statement to check if color's value is not None
+        - Checks to see that askcolor worked correctly
+        > if color != None:
+    - If color's value is not None reassign default_color to color
+    - Else return None
+
+- Make adjustments to the main function
+    - Create a button in window by implementing Tk's button class
+        - It can take many variables, but we will give it 3 values: a place to be displayed, a text to display, and a function to be executed when clicked
+        > color_button = Button(window, text='color', command=choose_color)
+    - Place the button on window's grid at row 0 and column 2
+        > color_button.grid(row=0, column=2)
 
 
-### EnHANCEMENTS: 
+
+
+### ENHANCEMENTS: 
     > Implement a 'clear' button that will delete all   
     > Implement an eraser button (consider what it might actually mean to erase something in pixel form)   
     > Implement a button which will change the size of the brush   
