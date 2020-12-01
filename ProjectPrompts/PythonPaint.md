@@ -1,6 +1,6 @@
 ## Python Paint
 - This project is a GUI application started through the command line
-- The concept is to pseudo-randomly generate characters for role-playing games based on parameters set by user-input
+- It is fairly simple but allows for expansion 
 
 ### Part 1
 #### Creating a GUI
