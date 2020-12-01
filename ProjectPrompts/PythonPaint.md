@@ -110,7 +110,7 @@
 ### ENHANCEMENTS: 
 
 > Implement a 'clear' button that will delete all lines on the canvas   
-> Implement an 'eraser' button that will erase whatever is under the mouse cursor
+> Implement an 'eraser' button that will erase whatever is under the mouse cursor  
 > Implement a button which will change the size of the brush   
 
 
