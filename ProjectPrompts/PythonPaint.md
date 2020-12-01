@@ -29,7 +29,7 @@
         - It can take a lot of parameters, but we will give it 4 values: a place to be displayed, a background color, width, and height
         > canvas = Canvas(window, bg='white', width=500, height=400) 
     - Specify its location in window's grid by calling its grid function
-        > canvas.grid(row=0, columnspan=5)  
+        > canvas.grid(row=1, columnspan=5)  
         - This will span the window, but will leave some room above for more functionalities
     - Call the mainloop function of window to keep the GUI listening to user input
         > window.mainloop()   
