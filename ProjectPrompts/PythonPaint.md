@@ -11,11 +11,11 @@
     > from tkinter.colorchooser import askcolor
     
 - Create the following global variables:
-    > default_color = 'black'
-    > default_size = '2.0'
-    > b1 = 'up'
-    > x_old = None
-    > y_old = None
+    > default_color = 'black'   
+    > default_size = '2.0'      
+    > b1 = 'up'   
+    > x_old = None   
+    > y_old = None   
 
 - Define the main function
     - It takes no parameters but will be used to access the OS's GUI generator
@@ -27,9 +27,9 @@
     - Create a variable called canvas and assign it to Canvas()
         - This will implement Tkinter's Canvas class
         - It can take a lot of parameters, but we will give it 4 values: a place to be displayed, a background color, width, and height
-        > canvas = Canvas(window, bg='white', width=500, height=400)
+        > canvas = Canvas(window, bg='white', width=500, height=400)   
     - Call the mainloop function of window to keep the GUI listening to user input
-        > window.mainloop()
+        > window.mainloop()   
 
 - Call the main function 
 
@@ -44,8 +44,8 @@
     - It will take one parameter called: event
     - The only action taken in this function is to change the value of a global parameter
     - Reference the global variable b1 and reassign it to 'down'
-        > global b1
-        > b1 = 'down'
+        > global b1   
+        > b1 = 'down'   
         - NOTE: be sure to use the global keyword
 
 - Define a function called b1up
@@ -74,9 +74,9 @@
 - Define a function called choose_color
 
 
->EHANCEMENTS: 
-    > Implement a 'clear' button that will delete all 
-    > Implement an eraser button (consider what it might actually mean to erase something in pixel form)
-    > Implement a button which will change the size of the brush
+### EnHANCEMENTS: 
+    > Implement a 'clear' button that will delete all   
+    > Implement an eraser button (consider what it might actually mean to erase something in pixel form)   
+    > Implement a button which will change the size of the brush   
 
 
