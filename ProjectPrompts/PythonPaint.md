@@ -67,7 +67,7 @@
     - It will take one parameter called: event
     - Everything in this function is dependent on b1 == 'down', so if b1 does not equal 'down', the function will do nothing
         > if b1 == 'down':
-    - Reference the global variables: x_old and y_old
+    - Reference the global variables: x_old, y_old, and b1
     - Write an if-statement that is conditional on x_old and y_old not being None
         > if x_old is not None and y_old is not None:
     - If the statement evaluates to True
@@ -98,6 +98,7 @@
         - Checks to see that askcolor worked correctly
         > if color != None:
     - If color's value is not None reassign default_color to color
+        > default_color = color
     - Else return None
 
 - Make adjustments to the main function
