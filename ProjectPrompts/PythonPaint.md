@@ -65,17 +65,17 @@
     - This function will be used when the left mouse button is clicked and the mouse is moving
     - This function will update x_old and y_old as the mouse moves and create a line on the canvas
     - It will take one parameter called: event
-    - Everything in this function is dependent on b1 == 'down', so if b1 does not equal 'down', the function will do nothing
-        > if b1 == 'down':
     - Reference the global variables: x_old, y_old, and b1
-    - Write an if-statement that is conditional on x_old and y_old not being None
-        > if x_old is not None and y_old is not None:
-    - If the statement evaluates to True
-        - Call the create_line function of event's widget attribute
-            > event.widget.create_line(x_old, y_old, event.x, event.y, smooth=True, fill=default_color, width=default_size)  
-            - This will use the global default color and size for the brush
-        - Reassign x_old and y_old to event's x and y values
-            > x_old, y_old = event.x, event.y  
+    - Everything in this function is dependent on b1 == 'down', so if b1 does not equal 'down', the function will do nothing
+        > if b1 == 'down':  
+        - Write an if-statement that is conditional on x_old and y_old not being None
+            > if x_old is not None and y_old is not None:  
+        - If the statement evaluates to True
+            - Call the create_line function of event's widget attribute
+                > event.widget.create_line(x_old, y_old, event.x, event.y, smooth=True, fill=default_color, width=default_size)    
+                - This will use the global default color and size for the brush
+            - Reassign x_old and y_old to event's x and y values
+                > x_old, y_old = event.x, event.y  
         
 - Make adjustments to the main function
     - Canvas needs to be linked to the functions that you just wrote
