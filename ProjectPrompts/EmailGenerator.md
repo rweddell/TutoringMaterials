@@ -18,11 +18,6 @@
     > parser.add_argument('-date')
 
 ### Part 2  
-#### Email template  
-
-
-
-### Part 2  
 #### Main function
 - Define the main function
     - This time the function will take two parameters: name and date
@@ -47,9 +42,9 @@
     - Print template
 
 ### Part 3
-#### if __name__ == "__main__"
+#### if \__name__ == "\__main__"
 - Convetion for running a script from command line is to create an if-statement that looks for the function name
-    > if __name__ == "__main__":
+    > if \__name__ == "\__main__":
     - If this statement evaluates to True then have parser parse the arguments into a variable
         > args = parser.parse_args()  
         - This object becomes a dictionary with attributes that were passed from the command line
