@@ -42,9 +42,11 @@
     - Print template
 
 ### Part 3
-#### if \__name__ == "\__main__"
-- Convetion for running a script from command line is to create an if-statement that looks for the function name
-    > if \__name__ == "\__main__":
+#### if \_\_name_\_ == "\_\_main_\_"
+- Convention for running a script from command line is to create an if-statement that looks for the function name
+    - More information can be found [here on GeeksforGeeks](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
+
+    > if \__name_\_ == "\__main_\_":
     - If this statement evaluates to True then have parser parse the arguments into a variable
         > args = parser.parse_args()  
         - This object becomes a dictionary with attributes that were passed from the command line
