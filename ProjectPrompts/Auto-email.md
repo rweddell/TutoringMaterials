@@ -32,9 +32,9 @@
     - A port is a physical location on your machine that other processes (or other machines) can point to in order to receive information
 - Open your credentials file and read the information into variables
     > with open('your_file_path.json', 'r') as credentials:  
-    >       creds = json.loads(credentials.read())  
-    >       password = creds['password']  
-    >       email_address = creds['email_address']  
+    >> creds = json.loads(credentials.read())  
+    >> password = creds['password']  
+    >> email_address = creds['email_address']  
 
 ### Part 3
 #### Send an email
@@ -47,8 +47,8 @@
     - From here, you will log in to your dummy account and trigger it to send an email using your predefined message
     - It uses a default setup through Gmail
     > with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:  
-    >       server.login(email_address, password)   
-    >       server.sendmail(email_address, receiver, message=message)
+    >> server.login(email_address, password)   
+    >> server.sendmail(email_address, receiver, message=message)
 - The script is now ready to run, but you may find it useful to include print statements at several points in the code to make sure that your script is running correctly.
     - Otherwise there is no other output from this script apart from the mail that may or may not have been received.
 
