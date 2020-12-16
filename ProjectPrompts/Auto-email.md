@@ -10,9 +10,9 @@
     - Very important because Gmail is smart enough to reject logins from third-party applications
 - Write the password and email address into a JSON file
     - You can save it as 'email_credentials.json'
-    > {
-    >    "email_address":"your_email@gmail.com",
-    >    "password":"your_email_password"
+    > {  
+    >    "email_address":"your_email@gmail.com",  
+    >    "password":"your_email_password"  
     > }  
     - Remember that by placing your email password in a separate document, you keep it safe if you should wish to share your code with others
 ##### NOTE: Keep in mind that if you send emails often enough through this account, there is a chance that it will be identified as spam and blocked.
@@ -32,16 +32,9 @@
     - A port is a physical location on your machine that other processes (or other machines) can point to in order to receive information
 - Open your credentials file and read the information into variables
     > with open('your_file_path.json', 'r') as credentials:  
-    >   creds = json.loads(credentials.read())  
-    >   password = creds['password']  
-    >   email_address = creds['email_address']  
-- To use it, first create an instance of the ArgumentParser class
-    > parser = ArgumentParser()  
-- Now that the parser has been created, it needs to know what arguments to parse
-    - Add arguments for name and date
-    > parser.add_argument('-name')  
-    > parser.add_argument('-date')  
-- Print email_address to make sure that
+    >       creds = json.loads(credentials.read())  
+    >       password = creds['password']  
+    >       email_address = creds['email_address']  
 
 ### Part 3
 #### Send an email
@@ -54,8 +47,8 @@
     - From here, you will log in to your dummy account and trigger it to send an email using your predefined message
     - It uses a default setup through Gmail
     > with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:  
-    >   server.login(email_address, password)   
-    >   server.sendmail(email_address, receiver, message=message)
+    >       server.login(email_address, password)   
+    >       server.sendmail(email_address, receiver, message=message)
 - The script is now ready to run, but you may find it useful to include print statements at several points in the code to make sure that your script is running correctly.
     - Otherwise there is no other output from this script apart from the mail that may or may not have been received.
 
