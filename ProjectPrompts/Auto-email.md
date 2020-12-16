@@ -15,9 +15,35 @@
     >    "password":"your_email_password"
     > }  
     - Remember that by placing your email password in a separate document, you keep it safe if you should wish to share your code with others
-##### Keep in mind that if you send emails often enough through this account, there is a chance that it will be identified as spam and blocked.
+##### NOTE: Keep in mind that if you send emails often enough through this account, there is a chance that it will be identified as spam and blocked.
 
 ### Part 2
+#### Email server
+- Open a python file and save as 'email_sender.py'
+- Import three libraries:
+    > import smtplib, ssl, json  
+    - Smtplib is the library that will manage emails
+    - SSL will allow you to create secure connections
+    - JSON will allow you to access your email credentials in a separate file
+- Create a variable called 'reciever' and assign the value of the address where you want to send a message
+    > reciever = 'some_email@email.com'
+- Create a variable called 'port' and assign the value of 465 (int)
+    > port = 465  
+    - A port is a physical location on your machine that other processes (or other machines) can point to in order to recieve information
+- Open your credentials file and read the information into variables
+    > with open('your_file_path.json', 'r') as credentials:
+    >   creds = json.loads(credentials.read())
+    >   password = creds['password']
+    >   email_address = creds['email_address']
+- To use it, first create an instance of the ArgumentParser class
+    > parser = ArgumentParser()  
+- Now that the parser has been created, it needs to know what arguments to parse
+    - Add arguments for name and date
+    > parser.add_argument('-name')
+    > parser.add_argument('-date')
+- Print email_address to make sure that
+
+### Part 3
 #### Email server
 - Create a variable called 'message' and assign a string to it that will be the body of your email
     > message = 'Hi. This is an email. Bye'
