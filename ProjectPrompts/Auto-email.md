@@ -34,3 +34,6 @@
     - Otherwise there is no other output from this script apart from the mail that may or may not have been received.
 
 - Save the script and run it from command line
+
+### Enhancements
+- Combine this project with the email generator project to create a command-line program that intakes parameters and sends an auto-generated email
