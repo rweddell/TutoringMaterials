@@ -33,9 +33,10 @@
         > where python  
 
  NOTE:
-    Make sure to turn off your environment when you are not using it
+    Make sure to turn off your environment when you are not using it  
     Mac/Linux/Windows:
 > deactivate  
+
 
 ### Part 2
 #### Application code
@@ -70,7 +71,6 @@
     > window.mainloop()  
 
 
-
 ### Part 3
 #### Build the application
 - In your terminal ensure that you are within the directory that you created in Part 1 
@@ -85,7 +85,7 @@
         - -w: without this argument, each time the application is activated a terminal will open and it's not very pretty
         - --name: we can use this header to specify a name for the application instead of just the name of our python script
 - Enter this command into the terminal
-    > pyinstaller --onefile hello_application.py -w --name hello
+    > pyinstaller --onefile hello_application.py -w --name hello  
 
 
 ### Enhancements
