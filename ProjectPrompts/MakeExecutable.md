@@ -32,10 +32,10 @@
     - Windows:
         > where python  
 
-#### NOTE:
-- You can turn off the virtual environment by typing. You should do this every time that you are finished programming for that environment.
-    - Mac/Linux/Windows:
-        > deactivate  
+> NOTE:
+    Make sure to turn off your environment when you are not using it
+    Mac/Linux/Windows:
+>> deactivate  
 
 ### Part 2
 #### Application code
