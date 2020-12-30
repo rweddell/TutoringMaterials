@@ -32,10 +32,10 @@
     - Windows:
         > where python  
 
-> NOTE:
+ NOTE:
     Make sure to turn off your environment when you are not using it
     Mac/Linux/Windows:
->> deactivate  
+> deactivate  
 
 ### Part 2
 #### Application code
