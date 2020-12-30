@@ -64,7 +64,7 @@
         - All buttons need a command, so pass in hello()
         > button = tkinter.Button(text='Click me', command=hello, bg='blue', fg='white')
     - Call canvas's create_window() and pass in values for height and width as well as the label object that was just created
-        > canvas.create_window(150, 200, window=label)
+        > canvas.create_window(150, 200, window=button)
 - Outside of the function, initialize an instance of Tk's Button() and name it 'button'
     - It needs text to display, a command to trigger, and foreground/background colors if desired
     > button =  tkinter.Button(text='Click me', command = hello)  
