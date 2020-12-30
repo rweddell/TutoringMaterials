@@ -16,7 +16,7 @@
         > pip install virtualenv
 - Navigate to your chosen directory where you will be writing your scripts
 - Create a virtual environment named 'env'
-    - Mac/Linx:
+    - Mac/Linux:
         > python3 -m venv env  
     - Windows:
         > python -m venv env  
@@ -47,7 +47,9 @@
 - Within the directory that was created in the previous step, create a python script called hello_application.py
 - Import the tkinter library
 - Initialize an instance of the Tk() class from tkinter and name it 'window'
+    > window = tkinter.Tk()
 - Create a Canvas() from tkinter and pass in window as an argument and name it 'canvas'
+    > canvas = tkinter.Canvas(window, width=300, height=300)  
 - Give canvas a place in the window by calling it's pack() method
     > canvas.pack()  
 - Define a function called hello():
@@ -60,6 +62,7 @@
     - Initialize an instance of Button() from tkinter and name it 'button'
         - Pass in window as an argument
         - All buttons need a command, so pass in hello()
+        > button = tkinter.Button(text='Click me', command=hello, bg='blue', fg='white')
     - Call canvas's create_window() and pass in values for height and width as well as the label object that was just created
         > canvas.create_window(150, 200, window=label)
 - Outside of the function, initialize an instance of Tk's Button() and name it 'button'
