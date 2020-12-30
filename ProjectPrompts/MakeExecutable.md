@@ -40,8 +40,8 @@
 ### Part 2
 #### 
 - Now we need to develop the code of the application
-##### NOTE:
-    There are many potential dependencies that you can add to the structure of the project, but the guide is only focused on the bare-bones approach of creating a single script that will encompass the application.
+> NOTE:  
+    There are many potential dependencies that you can add to the structure of the project, but this guide is only focused on the bare-bones approach of creating a single script that will encompass the application.
 - Create an empty directory called 'exedemo'
 - cd into the directory and create a python script called 
 
