@@ -73,7 +73,20 @@
 
 ### Part 3
 #### Build the application
-- 
+- In your terminal ensure that you are within the directory that you created in Part 1 
+- Activate your virtualenv if you haven't already
+- Install pyinstaller using pip
+    - Also install any other libraries that are used within your scripts
+        - Any and all imports
+- To build an executable, we will call pyinstaller directly
+    - We will also give it some specific arguments that will make the project a little easier to use
+        - --onefile: builds our executable into a single file that can be activated by clicking
+        - --\<name of python script\>.py: specifying the script that is the entry point into the application
+        - -w: without this argument, each time the application is activated a terminal will open and it's not very pretty
+        - --name: we can use this header to specify a name for the application instead of just the name of our python script
+- Enter this command into the terminal
+    > pyinstaller --onefile hello_application.py -w --name hello
+
 
 ### Enhancements
 - Include functionality to randomly change the color of the displayed text when the button is clicked
