@@ -1,5 +1,5 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 cap = cv2.VideoCapture(0)
 
@@ -10,7 +10,7 @@ while(True):
     if ret:
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-        edges = cv2.Canny(gray, 63, 127)
+        edges = cv2.Canny(gray, 64, 127)
         
         cv2.imshow('frame', edges)
 
