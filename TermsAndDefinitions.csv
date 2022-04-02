@@ -23,7 +23,7 @@ index,A specific location in a data structure such as a list or string.
 integer,Numeric data type used to represent whole numbers.
 library,A package of code that can be downloaded into a development environment. Contains classes and functions that can be referenced.
 list,Data type in the form of a series of values separated by commas. Implemented using square brackets [].
-local,Scope defined within a specified space. Variables created within a local scope can only be referenced from within that scope.
+local,Scope defined within a specific context. Variables created within a local scope can only be referenced from within that scope.
 loop,Code block that continually executes until a specified condition is met.
 modulus,The remainder of a division. Uses the modulo operator %. 5 % 3 = 2.
 operator,Symbol used to execute a statement. Ex: + - > < = ==
