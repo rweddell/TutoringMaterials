@@ -70,3 +70,23 @@ Exercise 7:
 
 
 
+'''
+Exercise 8:
+- Write a function that takes one argument: a list of integers called numbers 
+- The function determines if all of the items are unique
+- If all of the items are unique, return 0
+- Else, return a list of the non-unique numbers
+'''
+
+
+
+
+'''
+Exercise 9:
+- Write a function that takes one argument called: a string called text
+- The function creates a dictionary of the unique words and counts the number of occurances of each word
+- Return the dictionary
+'''
+
+
+
