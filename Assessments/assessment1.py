@@ -1,6 +1,6 @@
 '''
 Work through these exercises. Run them one-by-one as you complete them. 
-Once you are done with an exercise, surround it with comments so that the output is easier to read each time you run the file
+Once you are done with an exercise, surround it with comments if you don't plan on using it again to make the output easier to read each time you run the file
 '''
 
 '''
@@ -56,7 +56,8 @@ Exercise 6:
 - If char is a vowel, return True
 - Otherwise return False
 '''
-
+char1 = 'a'
+char2 = 'b'
 
 
 
@@ -66,7 +67,8 @@ Exercise 7:
 - Write a function called count_vowels that takes one argument: a string called phrase
 - Count the number of vowels in phrase and return the count
 '''
-
+phrase1 = 'countthenumberofvowelsinthisphrase'
+phrase2 = 'thnmskdlwpz'
 
 
 
@@ -77,7 +79,8 @@ Exercise 8:
 - If all of the items are unique, return 0
 - Else, return a list of the non-unique numbers
 '''
-
+numbers1 = [23, 65, 12, 34, 2, 5, 7]
+numbers2 = [23, 65, 12, 34, 2, 5, 7, 12, 23]
 
 
 
@@ -87,6 +90,7 @@ Exercise 9:
 - The function creates a dictionary of the unique words and counts the number of occurances of each word
 - Return the dictionary
 '''
+text1 = 'twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night then the traveller in the dark thanks you for your tiny spark he could not see which way to go if you did not twinkle so in the dark blue sky you keep and often through my curtains peep for you never shut your eye till the sun is in the sky as your bright and tiny spark lights the traveller in the dark though i know not what you are twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are'
 
 
 
