@@ -13,6 +13,18 @@
 ## Part 1  
 
 - Create a text file in a location that is accessible to a python script  
+    - If you're having trouble finding a text file, save this text to a new file:
+        ```
+        ANAIS NIN “RISK”
+        And then the day came,
+        when the risk
+        to remain tight
+        in a bud
+        was more painful
+        than the risk
+        it took
+        to blossom.
+        ```
 - Open a new python file and read the text file  
     - Use the context definer 'with'  
         ```python
