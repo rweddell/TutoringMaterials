@@ -15,7 +15,7 @@
 - Create a text file in a location that is accessible to a python script  
     - If you're having trouble finding a text file, save this text to a new file:
         ```
-        ANAIS NIN “RISK”
+        ANAIS NIN "RISK"
         And then the day came,
         when the risk
         to remain tight
