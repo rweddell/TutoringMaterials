@@ -15,7 +15,9 @@
 - Create a text file in a location that is accessible to a python script  
 - Open a new python file and read the text file  
     - Use the context definer 'with'  
-        - >> with open('file_name.txt') as file:  
+        ```python
+        with open('file_name.txt') as file:  
+        ```
 - Create a class called 'Encoder'  
     - It should have two functions:  
         - encrypt(cipher, text)  
